@@ -91,8 +91,10 @@ Regions
 
 https://pypi.org/project/meshcore-cli/<br>
 - Check `meshcli` version<br>
+<br>
 https://deepwiki.com/ripplebiz/MeshCore/10.2-basic-configuration<br>
 - Big Help<br>
+<br>
 https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md#513-q-can-i-use-a-raspberry-pi-to-update-a-meshcore-radio<br>
 - Manual USB serial flashing. Dind't find until after I solved that myself.<br>
   - "Non-merged bin keeps the existing Bluetooth pairing database"<br>
