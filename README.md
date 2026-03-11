@@ -29,7 +29,7 @@ CB = Companion Bluetooth
 
 CU = Companion USB
 - File: cmd_com.txt
-\
+
 BR = Base Repeater
 - File: cmd_rep.txt
 - File: cmd_rep_bas.txt
