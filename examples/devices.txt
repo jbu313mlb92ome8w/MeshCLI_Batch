@@ -31,7 +31,7 @@ Region=US
 
 # No spaces in names.
 # Order, comma separated
-# Serial/MAC,Region,Role,Name
+# Serial/MAC,Role,Name
 
 # Generic
 00:00:00:00:00:00,,No_MAC
