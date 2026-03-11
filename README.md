@@ -23,12 +23,12 @@ Script =
 
 
 ### Roles and Associated Files Used\
-\
-CB = Companion Bluetooth\
+
+CB = Companion Bluetooth
 - File: cmd_com.txt
-CU = Companion USB\
+CU = Companion USB
 - File: cmd_com.txt
-\
+
 BR = Base Repeater\
 - File: cmd_rep.txt\
 - File: cmd_rep_bas.txt\
