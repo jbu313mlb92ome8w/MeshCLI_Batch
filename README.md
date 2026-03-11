@@ -5,7 +5,7 @@ Batch Scipt for MeshCore USB Serial Programming.
 Only tested with Heltec v4 as that is all I have access to currently.\
 Handy to setup and configure multiple nodes at the same time and with consistent settings.\
 I made notes in each file for what they do. I'll try and list how it all works below, but if you have any trouble consider looking in the files.\
-I dont't have a micro$lop OS to test this setup on. Someone let me know if it works?\
+I dont't have a micro$lop OS to test this setup on. Someone let me know if it works?
 
 ### Background
 I could not get the flasher or config web apps to work using the Chromimium borwser. Instead I had to confiure my nodes manually over serial. *I think they didn't work because they require google and that is blocked on my network. Those apps spam them alot.*\
