@@ -27,7 +27,7 @@ Devices
 - File: devices.txt
 - Format
   - A single line with Regio=(Your Region)
-   - Region=US
+    - Region=US
   - No spaces in names.
   - Order, comma separated
   - Serial/MAC,Role,Name
