@@ -12,6 +12,7 @@ LIST_DEVICES=false
 SHOW_REGION=false
 LIST_MAPPED=false
 SHOW_VERSION=false
+SHOW_HELP=false
 
 while [[ $# -gt 0 ]]; do
     case $1 in
@@ -19,9 +20,41 @@ while [[ $# -gt 0 ]]; do
         -r|--region) SHOW_REGION=true; shift ;;
         -d|--device) LIST_MAPPED=true; shift ;;
         -v|--version) SHOW_VERSION=true; shift ;;
-        *) echo "Unknown option: $1"; exit 1 ;;
+        -h|--help) SHOW_HELP=true; shift ;;
+        *) SHOW_HELP=true; shift ;;
     esac
 done
+
+# Handle -h|--help: Display usage information
+if $SHOW_HELP; then
+    echo "Usage: meshcli_batch.sh [OPTIONS]"
+    echo ""
+    echo "Automated configuration script for MeshCore devices."
+    echo "Detects serial devices, reads role and region mappings from devices.txt,"
+    echo "executes region-specific radio commands, reboots the device, and applies"
+    echo "role-specific configuration files."
+    echo ""
+    echo "Options:"
+    echo "  -l, --list      List available serial devices (/dev/ttyUSB*, /dev/ttyACM*)"
+    echo "  -r, --region    Show current region in devices.txt and list defined regions"
+    echo "  -d, --device    List mapped devices from devices.txt"
+    echo "  -v, --version   Display script and meshcore-cli versions"
+    echo "  -h, --help      Display this help message"
+    echo ""
+    echo "Without options, the script runs in interactive mode:"
+    echo "  1. Lists available devices with mapped roles and names"
+    echo "  2. Prompts for device selection"
+    echo "  3. Verifies region and role (prompts if missing)"
+    echo "  4. Confirms configuration summary"
+    echo "  5. Executes: set name -> region command -> reboot -> pre-generic -> role-specific -> post-generic"
+    echo ""
+    echo "Examples:"
+    echo "  ./meshcli_batch.sh -l"
+    echo "  ./meshcli_batch.sh -r"
+    echo "  ./meshcli_batch.sh -d"
+    echo "  ./meshcli_batch.sh"
+    exit 0
+fi
 
 # Handle -v|--version: Display script and meshcore-cli versions
 if $SHOW_VERSION; then
