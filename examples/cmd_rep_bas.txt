@@ -7,12 +7,12 @@
 # frequency,bandwidth,spread factor,coding rate
 # Uncomment (aka delete #) to use
 #####
-set radio 910.525,62.5,7,8
-bash echo -e "\033[0;31mThese errors are part of the reboot process.\033[0m"
-reboot
-bash echo -e "\033[0;31mBoard rebooting.\033[0m"
-bash sleep 5
-bash echo -e "\033[0;31mBoard reboot complete... hopefully.\033[0m"
+#set radio 910.525,62.5,7,8
+#bash echo -e "\033[0;31mThese errors are part of the reboot process.\033[0m"
+#reboot
+#bash echo -e "\033[0;31mBoard rebooting.\033[0m"
+#bash sleep 5
+#bash echo -e "\033[0;31mBoard reboot complete... hopefully.\033[0m"
 #####
 
 set tx 28
