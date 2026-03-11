@@ -36,7 +36,7 @@ Batch Scipt for MeshCore USB Serial Programming
 ##### File: cmd_roo.txt
 ##### File: cmd_rep.txt
 ##### File: cmd_rep_bas.txt
-#### RM = Room Server/Mobile Repeater (Not recommended per MeshCore Documentation)
-##### File: cmd_roo.txt
-##### File: cmd_rep.txt
-##### File: cmd_rep_mob.txt
+RM = Room Server/Mobile Repeater (Not recommended per MeshCore Documentation)
+- File: cmd_roo.txt
+- File: cmd_rep.txt
+-File: cmd_rep_mob.txt
