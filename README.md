@@ -83,7 +83,7 @@ Regions
 - File: cmd_rep_mob.txt
 
 # Thanks To
-The [Austin Mesh](austinmesh.org) for the great info they provide.
+Tommy Ekstrand of [Austin Mesh](austinmesh.org) for the great info they provide. Also, for providing a [Github](https://github.com/austinmesh/www) that I've seen other meshes use as website template. 
 
 # Advanced
 
