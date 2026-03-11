@@ -31,8 +31,8 @@ Devices
   - No spaces in names.
   - Order, comma separated
   - Serial/MAC,Role,Name
-   - AA:BB:CC:DD:EE:FF,CU,MechCoreUSBCompanion
-   - 11:22:33:44:55:66,BD,MeshCoreBaseRepater
+    - AA:BB:CC:DD:EE:FF,CU,MechCoreUSBCompanion
+    - 11:22:33:44:55:66,BD,MeshCoreBaseRepater
 
 
 Regions
