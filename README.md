@@ -89,20 +89,21 @@ Regions
 
 ## Useful Resources
 
-https://pypi.org/project/meshcore-cli/<br>
-- Check `meshcli` version<br>
+https://pypi.org/project/meshcore-cli/
+- Check `meshcli` version
 <br>
-https://deepwiki.com/ripplebiz/MeshCore/10.2-basic-configuration<br>
-- Big Help<br>
+https://deepwiki.com/ripplebiz/MeshCore/10.2-basic-configuration
+- Big Help
 <br>
-https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md#513-q-can-i-use-a-raspberry-pi-to-update-a-meshcore-radio<br>
-- Manual USB serial flashing. Dind't find until after I solved that myself.<br>
-  - "Non-merged bin keeps the existing Bluetooth pairing database"<br>
-  - "Merged bin overwrites everything including the bootloader, existing Bluetooth pairing database, but keeps configurations."<br>
-- esptool flasher for MeshCore soming soon!<br>
-https://wiki.meshcoreaus.org/books/doc-firmware/page/doc-cli-reference<br>
-- Just found. Seems useful and will be checking out.<br>
-
+https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md#513-q-can-i-use-a-raspberry-pi-to-update-a-meshcore-radio
+- Manual USB serial flashing. Dind't find until after I solved that myself.
+  - "Non-merged bin keeps the existing Bluetooth pairing database"
+  - "Merged bin overwrites everything including the bootloader, existing Bluetooth pairing database, but keeps configurations."
+- esptool flasher for MeshCore soming soon!
+<br>
+https://wiki.meshcoreaus.org/books/doc-firmware/page/doc-cli-reference
+- Just found. Seems useful and will be checking out.
+<br>
 
 # Thanks To
 Tommy Ekstrand of [Austin Mesh](austinmesh.org) for the great info they provide. Also, for providing a [Github](https://github.com/austinmesh/www) that I've seen other meshes use as a website template. 
