@@ -8,7 +8,7 @@
 #https://deepwiki.com/ripplebiz/MeshCore/10.2-basic-configuration
 
 #Order, equal sign separated
-#Region=Command to set frequencies
+#Region=Command to set radio
 
 #set radio command breakout:
 #frequency,bandwidth,spread factor,coding rate
