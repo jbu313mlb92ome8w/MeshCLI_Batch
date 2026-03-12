@@ -3,6 +3,7 @@ Batch Scipt for MeshCore USB Serial Programming.
 - Only tested with Heltec v4 as that is all I have access to currently.
 - I dont't have a micro$lop OS to test this setup on. Someone let me know if it works?
 <br>
+<br>
 
 ## Info
 Handy to setup and configure multiple nodes at the same time and with consistent settings.<br>
